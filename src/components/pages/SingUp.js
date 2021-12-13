@@ -1,6 +1,6 @@
 import React from "react"
 import { Button } from "../Button"
-import Footer from "../Footer"
+
 
 function SingUp() {
     return (
@@ -23,7 +23,6 @@ function SingUp() {
 
                 </div>
             </div>
-            <Footer />
         </>
     )
 

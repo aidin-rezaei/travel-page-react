@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Produocts from './components/pages/Products';
 import SingUp from './components/pages/SingUp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/products" element={<Produocts/>}/>
           <Route path="/sing-up" element={<SingUp/>}/>
       </Routes>
+      <Footer />
     </div>
   );
 }
