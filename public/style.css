@@ -594,6 +594,26 @@
       flex-direction: column;
     }
   }
-  
-  @media screen and (max-width: 768px) {
+  .input-areas2 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -10px;
   }
+  @media screen and (max-width: 834px) {
+    .input-areas2 div{
+        flex-direction: column;
+      }
+  }
+  .hero-container2 {
+    background: url(/images/img-home.jpg) center center/cover no-repeat;
+    height: 90.9vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
+    object-fit: contain;
+    color:#fff;
+}
