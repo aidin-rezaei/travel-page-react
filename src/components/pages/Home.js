@@ -7,8 +7,8 @@ function Home() {
     return(
         <>
         <HeroSection/>
-        <Cards/>
         <BlogSection/>
+        <Cards/>
         </>
     )
 }
