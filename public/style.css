@@ -659,11 +659,31 @@ h1 {
     right: 0;
 }
 
+.cards{
+    position: relative;
+    overflow: hidden;
+}
 
+.fullc{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
+}
+.fullc img{
+    width: 700px;
+}
 
-
-
+.minf{
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    width: 2000px;
+    height: 50vh;
+}
 
 
 
@@ -732,6 +752,10 @@ h1 {
         width: 300px;
         right: -55px;
         
+    }
+    .fullc{
+        display: none;
+    
     }
 }
 
